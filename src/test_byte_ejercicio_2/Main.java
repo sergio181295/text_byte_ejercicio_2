@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("********* Programa para identificar palindormos **********");
+		System.out.println("********* Programa para identificar palindromos **********");
 		Scanner entrada = new Scanner(System.in);
 		Ejercicio2 ejercicio2 = new Ejercicio2();
 
@@ -14,9 +14,9 @@ public class Main {
 			String palabra = entrada.nextLine();
 
 			if (ejercicio2.esPalindromo(palabra)) {
-				System.out.println("La palabra: " + palabra + " SI es un palindromo.");
+				System.out.println("La palabra " + palabra + " SI es un palindromo.");
 			} else {
-				System.out.println("La palabra: " + palabra + " NO es un palindromo.");
+				System.out.println("La palabra " + palabra + " NO es un palindromo.");
 			}
 			System.out.println("**********************************************************");
 		}
